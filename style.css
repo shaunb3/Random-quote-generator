@@ -1,0 +1,65 @@
+
+
+
+
+body{
+	background-color: tomato;
+}
+
+#wrapper{
+	width:100%;
+	margin: 0px;
+	padding:0px;
+}
+
+.container-fluid{
+	width: 100%;
+	
+
+}
+
+.block{
+	background-color: #fff;
+	width:40%;
+	/*float: left;*/
+	margin: 0 auto;
+	border-radius: 4px;
+	padding: 20px;
+}
+
+.block p {
+	text-align: center;
+
+}
+
+.block h3 {
+	text-align: right;
+
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.tweet a{
+	float:left;
+	padding: 10px;
+	background-color: #7CE6FF;
+	text-decoration: none;
+	border-radius: 4px;
+	color: #444444;
+	
+}
+
+.quote a{
+	float:right;
+	padding: 10px;
+	background-color: #7CE6FF;
+	text-decoration: none;
+	border-radius: 4px;
+	color: #444444;
+}
+
